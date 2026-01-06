@@ -1,12 +1,37 @@
-# React + Vite
+# React Pokémon Cards App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive **React application** that displays Pokémon cards using data fetched from a public Pokémon API. The app is styled with **Tailwind CSS** and includes a **live search feature that filters Pokémon results in real time as the user types**.
 
-Currently, two official plugins are available:
+## 🔗 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 https://reactpokemonappcards.netlify.app/
 
-## Expanding the ESLint configuration
+## 📌 About the Project
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The React Pokémon Cards App allows users to browse Pokémon in a clean card-based UI. It fetches data from **PokeAPI** and provides a **real-time search functionality** that updates results instantly on every keystroke, improving user experience and performance.
+
+## ✨ Features
+
+- Fetches Pokémon data from **PokeAPI**
+- Displays Pokémon in card format (image, name, type, etc.)
+- **Live search functionality** (filters Pokémon on every word/keystroke)
+- Case-insensitive and fast search
+- Fully responsive UI built with **Tailwind CSS**
+- Reusable and modular React components
+- Deployed on **Netlify**
+
+## 🛠️ Tech Stack
+
+- **React**
+- **JavaScript (ES6+)**
+- **Tailwind CSS**
+- **PokeAPI**
+- **Netlify**
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+
+
